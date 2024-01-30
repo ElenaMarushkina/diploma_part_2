@@ -7,5 +7,3 @@ def test_status_of_order_is_200():
     track = {"t": response_order.json()["track"]}  # 2 шаг - сохраняем номер трека заказа
     response = create_order.getting_order_data(track)
     assert response.status_code == 200  # Проверка, что код ответа 200
-
-test_status_of_order_is_200()
