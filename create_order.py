@@ -1,4 +1,4 @@
-import config
+import configuration
 import data
 import requests
 
